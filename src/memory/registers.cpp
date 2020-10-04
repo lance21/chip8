@@ -1,4 +1,4 @@
-#include "chip8/registers.hpp"
+#include "chip8/memory/registers.hpp"
 
 using namespace chip8::memory;
 

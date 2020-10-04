@@ -1,4 +1,4 @@
-#include "chip8/rom.hpp"
+#include "chip8/memory/rom.hpp"
 #include <stdexcept>
 
 using namespace chip8::memory;

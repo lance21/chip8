@@ -1,4 +1,4 @@
-#include "chip8/stack.hpp"
+#include "chip8/memory/stack.hpp"
 
  Stack::Stack()
     : stack_pointer_(0)

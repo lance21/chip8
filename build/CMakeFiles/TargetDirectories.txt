@@ -1,8 +1,0 @@
-/home/lanceoom21/chip8/build/CMakeFiles/rebuild_cache.dir
-/home/lanceoom21/chip8/build/CMakeFiles/edit_cache.dir
-/home/lanceoom21/chip8/build/src/CMakeFiles/edit_cache.dir
-/home/lanceoom21/chip8/build/src/CMakeFiles/rebuild_cache.dir
-/home/lanceoom21/chip8/build/src/CMakeFiles/chip8_vm.dir
-/home/lanceoom21/chip8/build/src/timers/CMakeFiles/rebuild_cache.dir
-/home/lanceoom21/chip8/build/src/timers/CMakeFiles/edit_cache.dir
-/home/lanceoom21/chip8/build/src/timers/CMakeFiles/timer.dir
