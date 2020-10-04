@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/lanceoom21/chip8/build/src",
+  "command": "/usr/bin/clang++    -I/home/lanceoom21/chip8/include  -std=c++17 -Wall -Wextra -Wno-unused-parameter -g -O3 -D__USE_GNU -march=native -fPIC -DNDEBUG -g   -pthread -std=gnu++14 -o CMakeFiles/chip8_vm.dir/programme_counter.cpp.o -c /home/lanceoom21/chip8/src/programme_counter.cpp",
+  "file": "/home/lanceoom21/chip8/src/programme_counter.cpp"
+},
+{
+  "directory": "/home/lanceoom21/chip8/build/src",
+  "command": "/usr/bin/clang++    -I/home/lanceoom21/chip8/include  -std=c++17 -Wall -Wextra -Wno-unused-parameter -g -O3 -D__USE_GNU -march=native -fPIC -DNDEBUG -g   -pthread -std=gnu++14 -o CMakeFiles/chip8_vm.dir/registers.cpp.o -c /home/lanceoom21/chip8/src/registers.cpp",
+  "file": "/home/lanceoom21/chip8/src/registers.cpp"
+},
+{
+  "directory": "/home/lanceoom21/chip8/build/src",
+  "command": "/usr/bin/clang++    -I/home/lanceoom21/chip8/include  -std=c++17 -Wall -Wextra -Wno-unused-parameter -g -O3 -D__USE_GNU -march=native -fPIC -DNDEBUG -g   -pthread -std=gnu++14 -o CMakeFiles/chip8_vm.dir/rom.cpp.o -c /home/lanceoom21/chip8/src/rom.cpp",
+  "file": "/home/lanceoom21/chip8/src/rom.cpp"
+},
+{
+  "directory": "/home/lanceoom21/chip8/build/src",
+  "command": "/usr/bin/clang++    -I/home/lanceoom21/chip8/include  -std=c++17 -Wall -Wextra -Wno-unused-parameter -g -O3 -D__USE_GNU -march=native -fPIC -DNDEBUG -g   -pthread -std=gnu++14 -o CMakeFiles/chip8_vm.dir/stack.cpp.o -c /home/lanceoom21/chip8/src/stack.cpp",
+  "file": "/home/lanceoom21/chip8/src/stack.cpp"
+},
+{
+  "directory": "/home/lanceoom21/chip8/build/src",
+  "command": "/usr/bin/clang++    -I/home/lanceoom21/chip8/include  -std=c++17 -Wall -Wextra -Wno-unused-parameter -g -O3 -D__USE_GNU -march=native -fPIC -DNDEBUG -g   -pthread -std=gnu++14 -o CMakeFiles/chip8_vm.dir/main.cpp.o -c /home/lanceoom21/chip8/src/main.cpp",
+  "file": "/home/lanceoom21/chip8/src/main.cpp"
+},
+{
+  "directory": "/home/lanceoom21/chip8/build/src/timers",
+  "command": "/usr/bin/clang++    -I/home/lanceoom21/chip8/include  -std=c++17 -Wall -Wextra -Wno-unused-parameter -g -O3 -D__USE_GNU -march=native -fPIC -DNDEBUG -g   -pthread -std=gnu++14 -o CMakeFiles/timer.dir/delay_timer.cpp.o -c /home/lanceoom21/chip8/src/timers/delay_timer.cpp",
+  "file": "/home/lanceoom21/chip8/src/timers/delay_timer.cpp"
+},
+{
+  "directory": "/home/lanceoom21/chip8/build/src/timers",
+  "command": "/usr/bin/clang++    -I/home/lanceoom21/chip8/include  -std=c++17 -Wall -Wextra -Wno-unused-parameter -g -O3 -D__USE_GNU -march=native -fPIC -DNDEBUG -g   -pthread -std=gnu++14 -o CMakeFiles/timer.dir/sound_timer.cpp.o -c /home/lanceoom21/chip8/src/timers/sound_timer.cpp",
+  "file": "/home/lanceoom21/chip8/src/timers/sound_timer.cpp"
+},
+{
+  "directory": "/home/lanceoom21/chip8/build/src/timers",
+  "command": "/usr/bin/clang++    -I/home/lanceoom21/chip8/include  -std=c++17 -Wall -Wextra -Wno-unused-parameter -g -O3 -D__USE_GNU -march=native -fPIC -DNDEBUG -g   -pthread -std=gnu++14 -o CMakeFiles/timer.dir/timer.cpp.o -c /home/lanceoom21/chip8/src/timers/timer.cpp",
+  "file": "/home/lanceoom21/chip8/src/timers/timer.cpp"
+}
+]

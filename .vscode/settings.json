@@ -2,7 +2,7 @@
     "clang-tidy.executable": "clang-tidy",
     "clang-tidy.lintOnSave": true,
     "clang-tidy.compilerArgs": [],
-    "clang-tidy.build": "{workspaceFolder/build}",
+    "clang-tidy.build": "{workspaceFolder}/build",
     "clang-format.executable": "clang-format",
     "editor.formatOnSave": true,
     "files.associations": {

@@ -15,6 +15,7 @@ public:
     
     uint16_t get() const;
     void increment();
+    void decrement();
     void set( const uint16_t address );
 };
 

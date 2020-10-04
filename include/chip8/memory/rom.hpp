@@ -9,12 +9,15 @@ namespace memory{
 /*
  *  Simple wrapper over an allocated array emulating rom.
  */
-class Rom {
-    private:
-    std::unique_ptr<uint8_t> rom_;
 
-    public:
-    Rom( const uint32_t rom_size );
+constexpr uint32_t RomSize = 0xFFF;
+
+class Rom {
+private:
+    uint8_t[RomSize] rom_;
+
+public:
+    Rom();
     
     uint8_t read( const uint16_t address ) const;
     
@@ -28,6 +31,8 @@ class Rom {
     void write( const uint16_t address,
                 const uint8_t* bytes,
                 const uint16_t size);
+private:
+    bool isAddressInRom(const uint16_t address) const;
 };
 
 }

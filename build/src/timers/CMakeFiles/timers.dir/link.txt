@@ -1,0 +1,1 @@
+/usr/bin/clang++  -fPIC -std=c++17 -Wall -Wextra -Wno-unused-parameter -g -O3 -D__USE_GNU -march=native -fPIC -DNDEBUG -g  -shared -Wl,-soname,libtimers.so -o libtimers.so CMakeFiles/timers.dir/delay_timer.cpp.o CMakeFiles/timers.dir/sound_timer.cpp.o CMakeFiles/timers.dir/timer.cpp.o -lThreads::Thread 

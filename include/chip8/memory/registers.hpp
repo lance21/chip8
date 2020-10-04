@@ -13,8 +13,8 @@ private:
 public:
     Registers();
 
-    uint8_t read(const uint8_t register) const;
-    void write( const uint8_t register,
+    uint8_t read(const uint8_t register_index) const;
+    void write( const uint8_t register_index,
                 const uint8_t value );
 };
 

@@ -1,0 +1,1 @@
+/usr/bin/clang++   -std=c++17 -Wall -Wextra -Wno-unused-parameter -g -O3 -D__USE_GNU -march=native -fPIC -DNDEBUG -g   CMakeFiles/chip8_vm.dir/programme_counter.cpp.o CMakeFiles/chip8_vm.dir/registers.cpp.o CMakeFiles/chip8_vm.dir/rom.cpp.o CMakeFiles/chip8_vm.dir/stack.cpp.o CMakeFiles/chip8_vm.dir/main.cpp.o  -o chip8_vm timers/libtimer.a -pthread 
